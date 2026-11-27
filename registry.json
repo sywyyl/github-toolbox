@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "description": "GitHub 工具箱索引：用户需求触发词到 Skill/脚本的映射。推荐时优先 source=local，再考虑 marketplace。",
+  "updated": "2026-11-27",
+  "items": [
+    {
+      "id": "toolbox-router",
+      "name": "工具箱路由",
+      "source": "local",
+      "path": "skills/toolbox-router/SKILL.md",
+      "triggers": ["推荐技能", "推荐几个 skill", "工具箱里有什么", "有什么工具", "找 skill", "我有个需求"],
+      "best_for": "用户提出需求但不确定用哪个工具/Skill 时，先查此索引做匹配",
+      "install": "复制或软链 skills/toolbox-router 到 .workbuddy/skills/"
+    },
+    {
+      "id": "find-skills-wb",
+      "name": "技能发现神器-FindSkills-WB",
+      "source": "marketplace",
+      "path": null,
+      "triggers": ["找 skill", "搜 skill", "推荐 skill", "安装 skill", "有没有能做 X 的 skill"],
+      "best_for": "跨已装技能、市场与全网检索并评分排序，给出一键安装方式",
+      "installed": true,
+      "install": "已在 WorkBuddy 中安装"
+    },
+    {
+      "id": "skill-hunter",
+      "name": "技能猎人",
+      "source": "marketplace",
+      "path": null,
+      "triggers": ["帮我找适合做网页的技能", "有什么技能可以做 PPT", "不确定用哪些技能", "帮我搜索并安装技能"],
+      "best_for": "把任务拆解后跨本机/市场/GitHub 检索并评分，确认后安装",
+      "installed": true,
+      "install": "已在 WorkBuddy 中安装"
+    },
+    {
+      "id": "github-workflow",
+      "name": "Git 工作流",
+      "source": "marketplace",
+      "path": null,
+      "triggers": ["git 批处理", "仓库运维", "建仓", "推送", "提交", "分支", "PR", "发版"],
+      "best_for": "Git 多平台工作流：初始化、分支、规范提交、PR/MR、发版",
+      "installed": true,
+      "install": "已在 WorkBuddy 中安装"
+    },
+    {
+      "id": "scheduled-task-orchestrator",
+      "name": "定时任务编排模板生成器",
+      "source": "marketplace",
+      "path": null,
+      "triggers": ["每天自动", "每周自动", "定时", "周期任务", "日报", "竞品监控", "自动跑"],
+      "best_for": "把重复流程编排成可自跑、失败报警、可排查的定时任务",
+      "installed": true,
+      "install": "已在 WorkBuddy 中安装"
+    }
+  ]
+}
